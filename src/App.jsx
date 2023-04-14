@@ -45,7 +45,7 @@ function App() {
           
           <section className="taskSection">
             {
-              tasks.map(task => <Task isBeingEdited={task.isBeingEdited} onEdit={onEdit} onEditButtonClick={onEditButtonClick} onDeleteTask={onDeleteTask} id={task.id} text={task.text} />)
+              tasks.map(task => <Task isBeingEdited={task.isBeingEdited} onEdit={onEdit}  onEditButtonClick={onEditButtonClick} onDeleteTask={onDeleteTask} id={task.id} text={task.text} />)
           }
           </section>
 
